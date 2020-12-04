@@ -1,3 +1,17 @@
+
+function subAnswer(){
+const numberOne = document.getElementById('firstNumber').value;
+console.log(numberOne);
+const numberTwo = document.getElementById('secondNumber').value;
+console.log(numberTwo);
+document.getElementById('answer').value = numberOne - numberTwo;
+
+
+}
+
+
+
+
 // addition
 const addTwoNumbers = (num1, num2) => {
   return num1 + num2;
@@ -26,3 +40,4 @@ function divideBy() {
     let num2 = document.getElementById("box2").value;
     document.getElementById("box3").value = num1 / num2;
   }
+
